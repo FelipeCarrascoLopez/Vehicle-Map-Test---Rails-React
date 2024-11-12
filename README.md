@@ -26,9 +26,7 @@ Si no existe un vehículo con ese identificador, créalo.
 
 #### 2. HTML
 - **Endpoint**:  /show
-- 
 - **Descripción**:  muestra la coordenada más reciente de cada vehículo en un mapa.
-
 - **Nota**: Puedes elegir cualquier proveedor de mapas, como Google Maps, Open Street Map, Bing Maps, Mapbox, etc.
 
 
@@ -43,10 +41,10 @@ Muestra (posición y nombre) y filtra vehículos en el mapa usando React como li
 
 ## Configuración recomendada
 
-Ruby >= 2.5.2
-Ruby on Rails >= 6
-Base de datos: Postgres
-Job Processor: Sidekiq
-Redis
-Contenedores: Docker y Docker-Compose
-Mapas: Google Maps API
+-  **Ruby** >= 2.5.2
+-  **Ruby on Rails** >= 6
+-  **Base de datos:** Postgres
+-  **Job Processor:** Sidekiq
+-  **Redis**
+-  **Contenedores:** Docker y Docker-Compose
+-  **Mapas:** Google Maps API
