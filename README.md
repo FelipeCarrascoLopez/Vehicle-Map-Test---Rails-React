@@ -24,16 +24,25 @@ Específicamente, la aplicación debe tener los siguientes endpoints:
 Si no existe un vehículo con ese identificador, créalo.
 
 
-2. HTML
-Endpoint: /show
-Descripción: muestra la coordenada más reciente de cada vehículo en un mapa.
-Nota: Puedes elegir cualquier proveedor de mapas, como Google Maps, Open Street Map, Bing Maps, Mapbox, etc.
-Cosas a considerar
+#### 2. HTML
+- **Endpoint**:  /show
+- 
+- **Descripción**:  muestra la coordenada más reciente de cada vehículo en un mapa.
+
+- **Nota**: Puedes elegir cualquier proveedor de mapas, como Google Maps, Open Street Map, Bing Maps, Mapbox, etc.
+
+
+
+## Cosas a considerar
 Todos los waypoints históricos deben almacenarse.
+
 No se requiere autenticación para los endpoints.
+
 Los waypoints recibidos a través de la API deben ser procesados en un sistema de procesamiento de trabajos en segundo plano.
 Muestra (posición y nombre) y filtra vehículos en el mapa usando React como librería de frontend.
-Configuración recomendada
+
+## Configuración recomendada
+
 Ruby >= 2.5.2
 Ruby on Rails >= 6
 Base de datos: Postgres
